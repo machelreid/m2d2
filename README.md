@@ -13,9 +13,12 @@ Feel free to download the test sets for all domains at [this Google Drive link](
 or via [`gdown`](https://pypi.org/project/gdown/):
 ```bash
 #!/bin/bash
+# install and/or upgrade gdown with pip
 pip install --upgrade gdown
+# Download M2D2 test sets
 gdown "1U5wki_V-IFQy733HC6NO5ZuM2jaOaw8y"
 tar -xvzf m2d2_test_sets.tar.gz
+# File structure
 # m2d2_test_sets/
 # ├─ DOMAIN_AA/
 # │  ├─ test.txt

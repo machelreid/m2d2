@@ -2,12 +2,7 @@
 
 Scripts and data links for [M2D2: A Massively Multi-domain Language Modeling Dataset](https://machelreid.github.io/resources/reid22_m2d2.pdf) (EMNLP 2022).
 
-<object data="./m2d2_image.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="./m2d2_image.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="./m2d2_image.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
-
+![m2d2_image.png](m2d2_image.png)
 ## Data
 *We're currently exploring ways to host this large amount of data online in an accessible manner, stay tuned! If you would like to access sooner, feel free to reach out at [machelreid@google.com](mailto:machelreid@google.com).*
 

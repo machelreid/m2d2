@@ -4,7 +4,24 @@ Scripts and data links for [M2D2: A Massively Multi-domain Language Modeling Dat
 
 ![m2d2_image.png](m2d2_image.png)
 ## Data
-*We're currently exploring ways to host this large amount of data online in an accessible manner, stay tuned! If you would like to access sooner, feel free to reach out at [machelreid@google.com](mailto:machelreid@google.com).*
+*We're currently exploring ways to host this large amount of data online in an accessible manner, so please stay tuned! If you would like to access sooner, feel free to reach out at [machelreid@google.com](mailto:machelreid@google.com).*
+
+### Evaluation Sets
+
+Feel free to download the test sets for all domains at [this Google Drive link](https://drive.google.com/file/d/1U5wki_V-IFQy733HC6NO5ZuM2jaOaw8y/view?usp=sharing).
+
+or via [`gdown`](https://pypi.org/project/gdown/):
+```bash
+#!/bin/bash
+pip install --upgrade gdown
+gdown "1U5wki_V-IFQy733HC6NO5ZuM2jaOaw8y"
+tar -xvzf m2d2_test_sets.tar.gz
+# m2d2_test_sets/
+# ├─ DOMAIN_AA/
+# │  ├─ test.txt
+# ├─ DOMAIN_AB/
+# │  ├─ test.txt/
+```
 
 
 ## Reproduction Scripts for Modeling

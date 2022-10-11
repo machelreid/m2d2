@@ -29,7 +29,9 @@ tar -xvzf m2d2_test_sets.tar.gz
 
 ## Reproduction Scripts for Modeling
 
-Find scripts for finetuning language models in `lm_scripts/adapt.sh`. Furthermore, we provide meta-scripts for generating scripts for each subdomain: `lm_scripts/generate_l1.sh`, `lm_scripts/generate_l2.sh`, `lm_scripts/generate_l1_to_l2.sh`. Respective instructions/parameters are included in each file.
+Find scripts for finetuning language models in `lm_scripts/adapt.sh`. Furthermore, we provide meta-scripts for generating scripts for multiple domains given an input file containing a list of directories containing domain specfici data (within `train.txt` and `valid.txt` should exist): `lm_scripts/generate_multiple.sh`. Respective instructions/parameters are included in each file.
+
+For validation on multiple files, we also include `lm_scripts/validate_on_multiple_files.py` for calculating perplexity measures given a file containing a list of evaluation text files and a model checkpoint.
 
 ## Helper Scripts for Wikipedia Data Collection
 For Wikipedia data collection, we include scripts for data dump processing (`data_scripts/wiki/get_data`), ontology gathering (`data_scripts/wiki/ontology`), and generating splits (`data_scripts/wiki/split_generation`).

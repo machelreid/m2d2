@@ -39,3 +39,7 @@ For Wikipedia data collection, we include scripts for data dump processing (`dat
 ## Helper Scripts for S2ORC Data Collection
 
 *To be uploaded with documentation*
+
+## Scripts to reproduce analyses in the paper
+
+*To be uploaded with documentation*

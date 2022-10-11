@@ -1,6 +1,6 @@
 # M2D2
 
-Scripts and data links for [M2D2: A Massively Multi-domain Language Modeling Dataset](https://machelreid.github.io/resources/reid22_m2d2.pdf) (EMNLP 2022).
+Scripts and data links for [M2D2: A Massively Multi-domain Language Modeling Dataset](https://machelreid.github.io/resources/reid22_m2d2.pdf) (EMNLP 2022) by Machel Reid, Victor Zhong, Suchin Gururangan, and Luke Zettlemoyer.
 
 ![m2d2_image.png](m2d2_image.png)
 ## Data

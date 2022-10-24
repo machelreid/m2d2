@@ -4,7 +4,20 @@ Scripts and data links for [M2D2: A Massively Multi-domain Language Modeling Dat
 
 ![m2d2_image.png](m2d2_image.png)
 ## Data
-*We're currently exploring ways to host this large amount of data online in an accessible manner, so please stay tuned! If you would like to access sooner, feel free to reach out at [machelreid@google.com](mailto:machelreid@google.com).*
+Update: The data is currently hosted on HuggingFace [here](https://huggingface.co/datasets/machelreid/m2d2)!
+
+To load the dataset use the following steps:
+```bash
+pip install --upgrade datasets
+```
+```python
+import datasets
+
+dataset = datasets.load_dataset("machelreid/m2d2", "cs.CL") # replace cs.CL with the domain of your choice
+
+print(dataset['train'][0]['text']
+```
+~~*We're currently exploring ways to host this large amount of data online in an accessible manner, so please stay tuned! If you would like to access sooner, feel free to reach out at [machelreid@google.com](mailto:machelreid@google.com).*~~
 
 ### Evaluation Sets
 

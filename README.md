@@ -17,7 +17,7 @@ dataset = datasets.load_dataset("machelreid/m2d2", "cs.CL") # replace cs.CL with
 
 print(dataset['train'][0]['text']
 ```
-~~*We're currently exploring ways to host this large amount of data online in an accessible manner, so please stay tuned! If you would like to access sooner, feel free to reach out at [machelreid@google.com](mailto:machelreid@google.com).*~~
+~~*We're currently exploring ways to host this large amount of data online in an accessible manner, so please stay tuned! If you would like to access sooner, feel free to reach out at {machelreid}-{at}-{google-dot-com}.*~~
 
 ### Evaluation Sets
 
